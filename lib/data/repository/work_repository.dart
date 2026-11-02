@@ -30,7 +30,7 @@ class WorkRepository  {
       'works',
       work.toMap(),
       where: 'workId = ?',
-      whereArgs: [],
+      whereArgs: [work.workId],
     );
   }
 }

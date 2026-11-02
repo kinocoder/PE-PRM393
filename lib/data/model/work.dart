@@ -25,7 +25,7 @@ class Work {
       workId: map['workId'] as int?,
       title: map['title'] as String,
       description: map['description'] as String,
-      hoanThanh: map['hoanThanh'] == 0
+      hoanThanh: map['hoanThanh'] == 1
     );
   }
 }
